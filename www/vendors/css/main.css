@@ -1,0 +1,138 @@
+* {
+	font-family : "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+	background : black;
+	padding : 0px;
+	margin : 0px;
+	background : url(../../images/bg.jpg) center center fixed;
+}
+
+
+.wrapper {
+	/*position : absolute !important;
+	width : 100%;
+	left : 0px;
+	bottom : 30px;
+	text-align : center;*/
+	padding-top : 50px;
+	z-index : 12;
+	position : relative;
+}
+
+.container-fluid.main {
+	background : rgba(0, 0, 0, 0.50);
+	border-radius: 16px;
+	padding : 50px auto;
+}
+
+.product {
+	position : fixed !important;
+	z-index : 11;
+	bottom : 0px;
+	max-height : 40%;
+}
+
+.logo {
+	height : 100px;
+	margin : 40px auto;
+	display : block;
+}
+
+p {
+	color : #cdfef0;
+	line-height: 27px;
+	font-size : 14px;
+	font-weight : 300;
+	margin : 0px auto;
+	text-align : center;
+}
+
+h1 {
+	color : #cdfef0;
+	text-align : center;
+	font-size : 21px;
+	font-weight : 200;
+	letter-spacing : 3px;
+	margin : 60px 0px 40px 0px;
+}
+
+
+.form { 
+	text-align: center;
+}
+
+.form form {
+	border : none !important;
+}
+
+
+.form .cell {
+	padding : 0px;
+}
+
+.form span {
+	color : #cdfef0;
+	font-size : 14px;
+	font-weight : 300;
+	margin : auto 15px;
+	line-height : 34px;
+}
+
+.form input, .form button {
+	background-color : rgba(255, 255, 255, 0.1) !important;
+	border : 1px solid #cdfef0 !important;
+	color : #cdfef0;
+}
+
+.form button {
+}
+
+.form button:hover {
+	color : white;
+}
+
+div.corporate {
+	padding : 0px 15px;
+	margin : 60px 0px 40px 0px;
+	text-align : center;
+	color : #ccc;
+	font-size : 12px;
+}
+
+div.corporate a {
+	color : #ccc;
+	font-size : 12px;
+	text-decoration: underline;
+}
+
+div.corporate a:hover {
+	color : white;
+}
+
+
+/*
+h1 {
+	color : #cdfef0;
+	text-align : center;
+	font-size : 36px;
+	font-weight : 100;
+	letter-spacing : 3px;
+	margin : 0px;
+}*/
+
+@media (max-width: 768px)  {
+	.product {
+		position : relative !important;
+		margin-top : 30px;
+		height : auto !important;
+		max-height : none !important;
+		max-width : 100% !important;
+	}
+
+	.footer {
+		text-align : center !important;
+		position : relative !important;
+	}
+}
