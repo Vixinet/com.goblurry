@@ -1,1 +1,1 @@
-# com.goblurry
+# goblurry.com
